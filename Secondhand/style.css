@@ -1,0 +1,226 @@
+/* Basic CSS reset */
+*,
+:after,
+:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+.page__body {
+    font-family: Verdana, Geneva, sans-serif;
+    max-width: 1680px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+/*----------- Footer -----------*/
+.page_footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    text-align: right;
+    background: #BFAD9A;
+    color: #2b2825;
+    font-family: roboto, sans-serif;
+}
+
+.some_image{
+    width: 30px;   
+}
+
+.footer_info {
+    position: fixed;
+    float: left;
+    display: flex;
+    color: #2b2825;
+}
+
+.footer_følg_os {
+    float: auto;
+    margin-right: 2.5%;
+    margin-bottom: 0%;
+  }
+
+/*---------Navigationsbar ---------*/
+* {
+    box-sizing: border-box;
+  }
+
+  @media only screen and (max-width:880px) {
+    /* For tablets: */
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:640px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
+  
+  .navigation__container{
+      background:#BFAD9A;
+      position: sticky;
+      top: 0;
+  }
+
+  .companylogo{
+      position: absolute;
+      color: #2b2825;
+      top: 12px;
+      right: 10px;
+      width: 140px;
+      font-family: 'Oswald', sans-serif;
+  }
+  
+  /* Regler Wide screen*/
+  @media screen and (min-width: 800px){
+      .mobileiconlabel,
+      .mobileicon{
+          display: none;
+      }
+      .menuitem{
+          width: 130px;
+      }
+      .menuitem:hover{
+          background: #e2dbd3;
+      }
+      .companylogo{
+          left: 10px;
+          
+      }
+      .menuitems__container{
+          display: flex;
+          justify-content: flex-end;
+      }
+  }
+  
+/*------------- Dropdown bar-------------*/
+/*------- Kommer fra W3 School------*/
+
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: #2b2825;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #e2dbd3;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #e2dbd3;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+/*---------- Styling på header 1 og 2----------*/
+.titel {
+    text-align: center;
+    margin-top: 40px;
+    color: #2b2825;
+    font-family: roboto, sans-serif;
+}
+ 
+.titel2{
+    text-align: center;
+    color: #BFAD9A;
+    font-size: medium;
+    font-family: roboto, sans-serif;
+
+}
+
+/*---------- Styling af box 1,2 og 2----------*/
+.box1{
+    color: #BFAD9A;
+    font-size: medium;
+    margin-top: 100px;
+    margin-left: 250px;
+    font-family: roboto, sans-serif;
+}
+
+.text1{
+    font-size: small;
+    margin-left: 250px;
+    color: #2b2825;
+    margin-top: 12px;
+    font-family: roboto, sans-serif;
+}
+
+.box2{
+    color: #BFAD9A;
+    font-size: medium;
+    margin-left: 650px;
+    margin-top: -100px;
+    font-family: roboto, sans-serif;
+}
+
+.text2{
+    font-size: small;
+    margin-left: 100px;
+    color: #2b2825;
+    margin-top: 12px;
+    margin-left: 650px;
+    font-family: roboto, sans-serif;
+}
+
+.box3{
+    color: #BFAD9A;
+    font-size: medium;
+    margin-left: 1050px;
+    margin-top: -100px;
+    font-family: roboto, sans-serif;
+}
+
+.text3{
+    font-size: small;
+    color: #2b2825;
+    margin-top: 12px;
+    margin-left: 1050px;
+    font-family: roboto, sans-serif;
+}
+
+/*------ Styling af bilede 1,2,3 og 4 --------*/
+.billede1{
+  margin-left: 100px;
+  height: 320px;
+  margin-top: 50px;
+}
+

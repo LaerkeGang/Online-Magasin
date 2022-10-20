@@ -1,0 +1,291 @@
+/* Basic CSS reset */
+*,
+:after,
+:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+.page__body {
+    font-family: Verdana, Geneva, sans-serif;
+    max-width: 1680px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+/*----------- Footer -----------*/
+.page_footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    text-align: right;
+    background: #BFAD9A;
+    color: #2b2825;
+    font-family: roboto, sans-serif;
+}
+
+.some_image{
+    width: 30px;   
+}
+
+.footer_info {
+    position: fixed;
+    float: left;
+    display: flex;
+    color: #2b2825;
+}
+
+.footer_følg_os {
+    float: auto;
+    margin-right: 2.5%;
+    margin-bottom: 0%;
+  }
+
+/*---------Navigationsbar ---------*/
+* {
+    box-sizing: border-box;
+  }
+
+  @media only screen and (max-width:880px) {
+    /* For tablets: */
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:640px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
+  
+  .navigation__container{
+      background:#BFAD9A;
+      position: sticky;
+      top: 0;
+  }
+
+  .companylogo{
+      position: absolute;
+      color: #2b2825;
+      top: 12px;
+      right: 10px;
+      width: 140px;
+      font-family: 'Oswald', sans-serif;
+  }
+  
+  /* Regler Wide screen*/
+  @media screen and (min-width: 800px){
+      .mobileiconlabel,
+      .mobileicon{
+          display: none;
+      }
+      .menuitem{
+          width: 130px;
+      }
+      .menuitem:hover{
+          background: #e2dbd3;
+      }
+      .companylogo{
+          left: 10px;
+          
+      }
+      .menuitems__container{
+          display: flex;
+          justify-content: flex-end;
+      }
+  }
+  
+/*------------- Dropdown bar-------------*/
+/*------- Kommer fra W3 School------*/
+
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: #2b2825;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #e2dbd3;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #e2dbd3;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+/*----------- Footer -----------*/
+.page_footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  text-align: right;
+  background: #BFAD9A;
+}
+
+.some_image{
+  width: 30px;   
+}
+
+.footer_info {
+  position: fixed;
+  float: left;
+  display: flex;
+}
+
+.footer_følg_os {
+  float: auto;
+  margin-right: 2.5%;
+  margin-bottom: 0%;
+}
+
+
+/*-------- Styling fordele til venstre --------*/
+.ti_tel {
+    text-align: center;
+    margin-top: 40px;
+    color: #2b2825;
+    font-family: roboto, sans-serif;
+}
+
+.overskrift1{
+    color: #2b2825;
+    margin-left: 250px;
+    font-family: roboto, sans-serif;
+}
+
+.ti_tel1{
+    color: #BFAD9A;
+    font-size: medium;
+    margin-left: 270px;
+    font-family: roboto, sans-serif;
+}
+
+.info1{
+    font-size: small;
+    color: #2b2825;
+    margin-left: 150px;
+    font-family: roboto, sans-serif;
+}
+
+.ti_tel2{
+    color: #BFAD9A;
+    font-size: medium;
+    margin-left: 240px;
+    font-family: roboto, sans-serif;
+}
+
+.info2{
+    font-size: small;
+    color: #2b2825;
+    margin-left: 200px;
+    font-family: roboto, sans-serif;
+}
+
+.ti_tel3{
+    color: #BFAD9A;
+    font-size: medium;
+    margin-left: 240px;
+    font-family: roboto, sans-serif;
+}
+
+.info3{
+    font-size: small;
+    color: #2b2825;
+    margin-left: 190px;
+    font-family: roboto, sans-serif;
+}
+
+.fordele{
+  float: left;
+}
+
+/*------- Styling af billeder -------*/ 
+.billede_penge{
+  margin-left: 140px;
+  height: 175px;
+  margin-top: 20px;
+}
+
+.billede_snyd{
+  margin-left: -420px;
+  height: 175px;
+  margin-top: 20px;
+}
+
+/*------- Styling af ulemper til højre------*/
+.overskrift_ulemper{
+  color: #2b2825;
+  margin-left: 1000px;
+  margin-top: 100px;
+  font-family: roboto, sans-serif;
+}
+
+.ulemper{
+  float: right;
+  margin-right: auto;
+}
+
+.overskrift_{
+  margin-left: -300px;
+  font-size: x-large;
+  color: #2b2825;
+  font-family: roboto, sans-serif;
+}
+
+.titel_1{
+  color: #BFAD9A;
+  font-size: medium;
+  margin-left: -325px;
+  font-family: roboto, sans-serif;
+}
+
+.info_1{
+  font-size: small;
+  margin-left: -400px;
+  color: #2b2825;
+  font-family: roboto, sans-serif;
+}
+
+
+
+
+
+
+
